@@ -1,0 +1,161 @@
+body{
+    background-color:#E5E5E5 ;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+   padding: 20px 30px;
+}
+
+
+.buttons{
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    margin-top: 10%;
+    
+}
+.button-start{
+    
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #E5E5E5;
+    width: 100%;
+    font-weight: 700;
+    
+    
+
+}
+.button-add-word{
+    
+    height: 67px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 80%;
+    margin-top: 5%;
+    border-color: #0A3871;
+}
+
+#draw{
+    width: 75%;
+    
+}
+
+#draw-mobile{
+    display: none;
+}
+
+.buttons2{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+   
+    
+}
+
+.canvas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.button-newGame{
+    width: 45% ;
+    height: 67px;
+    
+    background: #0A3871;
+    border-radius: 24px;
+    color: #E5E5E5;
+    font-weight: 700;
+}
+.input-mobile{
+    display: none;
+}
+.button-gameOver{
+    width: 45% ;
+    height: 67px;
+    
+    background: #E5E5E5;
+    border-radius: 24px;
+    color: #0A3871;
+    border-color: #0A3871;
+   
+}
+
+.add-block{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    
+}
+.add-word{
+    width: 80%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    outline: none;
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+    padding: 30px;
+    
+
+}
+
+.foot-text{
+    
+    text-align: center;
+}
+
+@media screen  and (max-width:480px){
+  .buttons{
+      margin-top: 25%;
+      width: 75%;
+  }
+
+  #draw{
+      display: none;
+  }
+  #draw-mobile{
+      display: block ;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      
+  }
+  .buttons2{
+      width: 90%;
+  }
+
+  .button-newGame, .button-gameOver{
+      width: 90%;
+  }
+
+  .logo{
+      width: 20%;
+  }
+  .add-word{
+      font-size: 20px;
+  }
+ .input-mobile{
+    font-size: 15px;
+    display: block;
+    outline: none;
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+}
